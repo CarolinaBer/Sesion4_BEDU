@@ -6,5 +6,7 @@ En esta sesión establecimos una conección a la base de datos no relacional Mon
 - Sin embargo se tiene más redundancia y por tanto más desnormalización.
 - Con ello la lectura de datos es más rápida pero la agregación de datos se alenta.
 
-En esta caso las BD orientada a documentos siguen el formato JSON y BSON utilizando el modelo **llave-valor** equivalente al valor de una columna en la BD relacional.
+En esta caso, las BD orientadas a documentos siguen el formato JSON y BSON utilizando el modelo **llave-valor** equivalente al valor de una columna de una BD relacional.
 Mongo DB Compass hace uso de la orientación llave-valor e utiliza BSON (JSON como compilador).
+
+Para utilizar Mongo DB Compass se realizó la creación de un Cluster en MongoDB Atlas utilizando como Cloud provider: AWS y EU como región. 
