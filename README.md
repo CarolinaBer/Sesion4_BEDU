@@ -12,8 +12,16 @@ Mongo DB Compass hace uso de la orientación llave-valor e utiliza BSON (JSON co
 Para utilizar Mongo DB Compass se realizó la creación de un Cluster en MongoDB Atlas utilizando como Cloud provider: AWS y EU como región. 
 En esta sesión los retos fueron:
 ### :pushpin: Reto 1. Colecciones, Documentos y Proyecciones.
-Usando la base de datos `sample_mflix`, proyecta los datos que se solicitan.
+Usando la base de datos `sample_mflix`:
 
 - Fecha, nombre y texto de cada comentario.
 - Título, elenco y año de cada película.
 - Nombre y contraseña de cada usuario.
+
+### :pushpin: Reto 2. Filtros básicos.
+Usando la base de datos `sample_mflix`:
+
+- ¿Qué comentarios ha hecho Greg Powell?
+- ¿Qué comentarios han hecho Greg Powell o Mercedes Tyler?
+- ¿Cuál es el máximo número de comentarios en una película?
+- ¿Cuál es título de las cinco películas más comentadas?
