@@ -10,3 +10,10 @@ En esta caso, las BD orientadas a documentos siguen el formato JSON y BSON utili
 Mongo DB Compass hace uso de la orientación llave-valor e utiliza BSON (JSON como compilador).
 
 Para utilizar Mongo DB Compass se realizó la creación de un Cluster en MongoDB Atlas utilizando como Cloud provider: AWS y EU como región. 
+En esta sesión los retos fueron:
+### Reto 1. Colecciones, Documentos y Proyecciones.
+Usando la base de datos `sample_mflix`, proyecta los datos que se solicitan.
+
+-Fecha, nombre y texto de cada comentario.
+-Título, elenco y año de cada película.
+-Nombre y contraseña de cada usuario.
