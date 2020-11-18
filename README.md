@@ -1,4 +1,4 @@
-# Sesión4_BEDU: Fundamentos de MongoDB.
+# Sesión4 BEDU: Fundamentos de MongoDB.
 En esta sesión establecimos una conección a la base de datos no relacional MongoDB la cual utiliza el **modelo orientado a documentos**.Además de esto algunas de sus características son:
 - Documentos de esquema libre.
 - Las colecciones contienen documentos.
@@ -8,6 +8,11 @@ En esta sesión establecimos una conección a la base de datos no relacional Mon
 
 En esta caso, las BD orientadas a documentos siguen el formato JSON y BSON utilizando el modelo **llave-valor** equivalente al valor de una columna de una BD relacional.
 Mongo DB Compass hace uso de la orientación llave-valor e utiliza BSON (JSON como compilador).
+
+De tal forma que podemos hacer las siguientes relaciones entre conceptos de MySQL y MongoDB:
+- Tabla -> Colección.
+- Registro -> Documento.
+- Columna -> Llave.
 
 Para utilizar Mongo DB Compass se realizó la creación de un Cluster en MongoDB Atlas utilizando como Cloud provider: AWS y EU como región. 
 En esta sesión los retos fueron:
