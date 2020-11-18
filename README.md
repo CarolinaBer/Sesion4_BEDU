@@ -14,6 +14,11 @@ De tal forma que podemos hacer las siguientes relaciones entre conceptos de MySQ
 - Registro -> Documento.
 - Columna -> Llave.
 
+Algunos conceptos útiles serán:
+- **Objeto** Conjuntos desordenados de pares *llave-valor* que inician con { y terminan con }.
+- **Valores** Cadenas, números, booleanos, null, objetos o arreglos que se pueden anidar.
+- **Arreglos** Colección de valores que se encuentran entre [ ] y se separan con ,.
+
 Para utilizar Mongo DB Compass se realizó la creación de un Cluster en MongoDB Atlas utilizando como Cloud provider: AWS y EU como región. 
 En esta sesión los retos fueron:
 ### :pushpin: Reto 1. Colecciones, Documentos y Proyecciones.
