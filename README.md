@@ -1,5 +1,5 @@
 # Sesión4 BEDU: Fundamentos de MongoDB.
-En esta sesión establecimos una conección a la base de datos no relacional MongoDB la cual utiliza el **modelo orientado a documentos**.Además de esto algunas de sus características son:
+En esta sesión establecimos una conexión a la base de datos no relacional MongoDB la cual utiliza el **modelo orientado a documentos**.Además de esto algunas de sus características son:
 - Documentos de esquema libre.
 - Las colecciones contienen documentos.
 - Más localidad por lo que son necesarios menos JOIN. 
