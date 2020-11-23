@@ -19,7 +19,12 @@ Algunos conceptos útiles serán:
 - **Valores:** Cadenas, números, booleanos, null, objetos o arreglos que se pueden anidar.
 - **Arreglos:** Colección de valores que se encuentran entre [ ] y se separan con ,.
 
-Para utilizar Mongo DB Compass se realizó la creación de un Cluster en MongoDB Atlas utilizando como Cloud provider: AWS y EU como región. Una vez creado dicho cluster, se cargó una BD de prueba y se realizó la conexión en MongoDB compass.
+Para utilizar **Mongo DB Compass** se realizó la creación de un **Cluster** en MongoDB Atlas utilizando como Cloud provider: AWS y EU como región. Una vez creado dicho cluster, se cargó una BD de prueba y se realizó la conexión en MongoDB Compass.
+
+### :exclamation: NOTA:  Para generar las evidencias de los retos es necesario hacer click en `...` y posteriormente en `Toogle Query History`para generar el documento .json en el cual se encontran las consultas realizadas.
+![imagen](imagenes/query_history.png)
+
+
 En esta sesión los retos fueron:
 ### :pushpin: Reto 1. Colecciones, Documentos y Proyecciones.
 Usando la base de datos `sample_mflix`:
@@ -37,8 +42,6 @@ De la misma forma que el anterior se utiliza **PROJECT** pero esta vez en *sampl
 Finalmente el uso de **PROJECT** en *sample_mflix.users* proyectando name y password.
 
    ![imagen](imagenes/users_p.png)
-### :exclamation: NOTA:  Para generar las evidencias de los retos es necesario hacer click en `...` y posteriormente en `Toogle Query History`para generar el documento .json en el cual se encontran las consultas realizadas.
-![imagen](imagenes/query_history.png)
 
 ### :pushpin: Reto 2. Filtros básicos.
 Usando la base de datos `sample_mflix`:
