@@ -25,15 +25,18 @@ En esta sesión los retos fueron:
 Usando la base de datos `sample_mflix`:
 
 #### - Fecha, nombre y texto de cada comentario.
-Para esto nos conectamos a *sample_mflix.comments* En la pestaña de **Documents**. Utilizando **PROJECT** es posible escoger los datos a proyectar, en este caso date,name y text. Todo utilizando la forma ****llave-valor***.
+Para esto nos conectamos a *sample_mflix.comments* en la pestaña **Documents**. Utilizando **PROJECT** es posible escoger los datos a proyectar, en este caso date,name y text. Todo utilizando la forma ***llave-valor***.
 
 #### - Título, elenco y año de cada película.
 De la misma forma que el anterior se utiliza **PROJECT** pero esta vez en *sample_mflix.movies* proyectando title, cast y year.
 #### - Nombre y contraseña de cada usuario.
 Finalmente el uso de **PROJECT** en *sample_mflix.users* proyectando name y password.
+### NOTA: Para generar las evidencias de los retos es necesario hacer click en `...` y posteriormente en Toogle Query para generar el documento .json en el cial se encontran las consultas realizadas.
+
 ### :pushpin: Reto 2. Filtros básicos.
 Usando la base de datos `sample_mflix`:
 
+Para los filtros se utiliza **FILTER** de la pestaña **Documents**
 - ¿Qué comentarios ha hecho Greg Powell?
 - ¿Qué comentarios han hecho Greg Powell o Mercedes Tyler?
 - ¿Cuál es el máximo número de comentarios en una película?
