@@ -37,7 +37,7 @@ De la misma forma que el anterior se utiliza **PROJECT** pero esta vez en *sampl
 Finalmente el uso de **PROJECT** en *sample_mflix.users* proyectando name y password.
 
    ![imagen](imagenes/users_p.png)
-### :exclamation: NOTA:  Para generar las evidencias de los retos es necesario hacer click en `...` y posteriormente en Toogle Query para generar el documento .json en el cial se encontran las consultas realizadas.
+### :exclamation: NOTA:  Para generar las evidencias de los retos es necesario hacer click en `...` y posteriormente en `Toogle Query History`para generar el documento .json en el cial se encontran las consultas realizadas.
 
 ### :pushpin: Reto 2. Filtros básicos.
 Usando la base de datos `sample_mflix`:
