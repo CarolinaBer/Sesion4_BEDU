@@ -1,0 +1,10 @@
+{
+ filter: {
+  author: 'machine'
+ },
+ project: {
+  author: 1,
+  body: 1,
+  title: 1
+ }
+}

@@ -1,0 +1,17 @@
+{
+ filter: {
+  $and: [
+   {
+    founded_year: 2008
+   },
+   {
+    founded_month: 10
+   }
+  ]
+ },
+ project: {
+  name: 1,
+  founded_year: 1,
+  founded_month: 1
+ }
+}
