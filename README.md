@@ -6,8 +6,8 @@ En esta sesión establecimos una conexión a la base de datos no relacional Mong
 - Sin embargo se tiene más redundancia y por tanto más desnormalización.
 - Con ello la lectura de datos es más rápida pero la agregación de datos se alenta.
 
-En esta caso, las BD orientadas a documentos siguen el formato JSON y BSON utilizando el modelo **llave-valor** equivalente al valor de una columna de una BD relacional.
-Mongo DB Compass hace uso de la orientación llave-valor e utiliza BSON (JSON como compilador).
+En este caso, las BD orientadas a documentos siguen el formato JSON y BSON utilizando el modelo **llave-valor** equivalente al valor de una columna de una BD relacional.
+**Mongo DB Compass** hace uso de la orientación llave-valor e utiliza BSON (JSON como compilador).
 
 De tal forma que podemos hacer las siguientes relaciones entre conceptos de MySQL y MongoDB:
 - Tabla -> Colección.
