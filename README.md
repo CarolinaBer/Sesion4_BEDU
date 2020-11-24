@@ -27,6 +27,8 @@ Para utilizar **Mongo DB Compass** se realizó la creación de un **Cluster** en
 
 En esta sesión los retos fueron:
 ### :pushpin: Reto 1. Colecciones, Documentos y Proyecciones.
+Recordando que en MongoDB se hace uso del formato JSON , para escoger los campos a proyectar utilizamos **{campo: 0}** para que el campo no aparezca y **{campo: 1}** para que sí.
+
 Usando la base de datos `sample_mflix`:
 
 #### - Fecha, nombre y texto de cada comentario.
@@ -44,6 +46,8 @@ Finalmente el uso de **PROJECT** en *sample_mflix.users* proyectando name y pass
    ![imagen](imagenes/users_p.png)
 
 ### :pushpin: Reto 2. Filtros básicos.
+En el caso de los filtros utilizamos la forma **{campo: "valor"}**. Podemos utilizar funciones con los filtros.
+
 Usando la base de datos `sample_mflix`:
 
 Para los filtros se utiliza **FILTER** de la pestaña **Documents**
