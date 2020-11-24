@@ -21,6 +21,12 @@ Algunos conceptos útiles serán:
 
 Para utilizar **Mongo DB Compass** se realizó la creación de un **Cluster** en MongoDB Atlas utilizando como Cloud provider: AWS y EU como región. Una vez creado dicho cluster, se cargó una BD de prueba y se realizó la conexión en MongoDB Compass.
 
+En la documentación de MongoDB encontramos:
+### Operadores de comparación.
+![imagen](imagenes/Comparison.png)
+### Operadores lógicos.
+![imagen](imagenes/Comparison.png)
+Consultado en: MongoDB Documentation(2008),https://docs.mongodb.com/manual/reference/operator/query/ . 
 ### :exclamation: NOTA:  Para generar las evidencias de los retos es necesario hacer click en `...` y posteriormente en `Toogle Query History`para generar el documento .json en el cual se encontran las consultas realizadas.
 ![imagen](imagenes/query_history.png)
 
